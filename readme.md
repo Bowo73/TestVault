@@ -35,7 +35,7 @@ docker-compose up --build
 
 ### 2. Accéder à l’application
 
-- URL : [http://localhost:5000](http://localhost:5000)
+- URL : [http://localhost:5000/login](http://localhost:5000/login)
 - Identifiants :
   - Utilisateur : `admin`
   - Mot de passe : `adminpass`

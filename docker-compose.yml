@@ -38,10 +38,14 @@ services:
   app:
     build: .
     container_name: app
+    ports:
+      - "5000:5000"
     depends_on:
       - mariadb
       - vault
     environment:
       VAULT_ADDR: http://vault:8200
       VAULT_TOKEN: root
+    volumes:
+      - .:/app
     command: python app.py

@@ -2,3 +2,4 @@ flask
 pyotp
 hvac
 mysql-connector-python
+captcha
